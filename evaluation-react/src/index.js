@@ -11,7 +11,9 @@ import Search from './search.js';
 
 ReactDOM.render(
   <React.StrictMode>
+    <main className="background">
     <Search />
+    </main>
   </React.StrictMode>,
   document.getElementById('root')
 );

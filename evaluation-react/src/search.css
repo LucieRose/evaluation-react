@@ -1,4 +1,44 @@
+
+
 .search{
+    background: linear-gradient( transparent),
+    url(img/cinemaneon.jpeg);
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+
     align-items: center;
-    padding: 2rem;
+}
+
+.search-bar{
+    margin: 5rem;
+    padding: 0.7em;
+    width: 55%;
+
+}
+
+section{
+    width: 55%;
+    margin:auto;
+    padding:20px;
+    margin-bottom: 50px;
+    background-color:rgba(80, 22, 22, 0.692);
+    border: 1px solid rgba(145, 15, 15, 0.609);
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+    color:white;
+    transition: transform 200ms ease;
+}
+
+section:hover{
+    transform: scale(1.02);
+}
+
+.content{
+display: flex;
+flex-direction: column;
+}
+
+img {
+    border-radius: 25px;
 }
