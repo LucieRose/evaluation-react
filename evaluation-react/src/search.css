@@ -1,14 +1,24 @@
 
 
 .search{
-    background: linear-gradient( transparent),
+    background: linear-gradient(to bottom, rgba(80, 22, 22, 0.164), rgba(80, 22, 22, 0.692)),
     url(img/cinemaneon.jpeg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     display:flex;
     flex-direction: column;
 
     align-items: center;
+
 }
+
+h1{
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+
 
 .search-bar{
     margin: 5rem;

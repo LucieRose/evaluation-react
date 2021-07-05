@@ -25,15 +25,16 @@ console.log(searchTerm);
 return (
     <>
     <div className="search">
-        <h1>Netfli</h1>
-        <input
-        className="search-bar" 
-         type="text" 
-         name="searchbar" 
-         id="searchbar" 
-         placeholder="Search here"
-         onChange={handleSearchTerm}
-         ></input>
+            <h1>Netfli</h1>
+            <input
+            className="search-bar" 
+            type="text" 
+            name="searchbar" 
+            id="searchbar" 
+            placeholder="Search here"
+            onChange={handleSearchTerm}
+            ></input>
+     
    
     <ShowList className="content" shows={data.filter((show)=>
     {return show.title.includes(searchTerm) })}/>

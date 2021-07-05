@@ -10,7 +10,7 @@ export default  function Show(props) {
     <section>
         <div className="content">
             <img src={show.images.banner}/>
-            <h1>{show.title}</h1>
+            <h2>{show.title}</h2>
             <h3>{show.creation}, {show.seasons} seasons</h3>
             <p>{show.description}</p>
             <Favorite favState={show.user.favorited} showId={show.id}></Favorite>
